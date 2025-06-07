@@ -41,3 +41,12 @@ python app.py
 - AI: Anthropic's Claude
 - Frontend: HTML/CSS/JavaScript
 - News API: The Guardian
+
+## Example video of backend app
+
+You see the app started, request is send with a claim "AI replaces human" that returns credibility score of 30 and related articles from Guardian API. Next you see the claim "AI is dead" returns a credibility score of 0 and no related articles. 
+
+https://github.com/user-attachments/assets/b1c427ad-0f59-4431-a9c1-0165d723e877
+
+
+
