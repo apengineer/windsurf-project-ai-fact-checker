@@ -42,6 +42,20 @@ python app.py
 - Frontend: HTML/CSS/JavaScript
 - News API: The Guardian
 
+## Testing
+
+To run the test suite, use the following command:
+
+```bash
+# Install test dependencies
+pip install -r requirements.txt
+
+# Run tests with coverage report
+pytest
+```
+
+This will run all tests and generate a coverage report showing which parts of your code are covered by tests.
+
 ## Example video of backend app
 
 You see the app started, request is send with a claim "AI replaces human" that returns credibility score of 30 and related articles from Guardian API. Next you see the claim "AI is dead" returns a credibility score of 0 and no related articles. 
